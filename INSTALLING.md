@@ -10,7 +10,7 @@ Note - you may have to unzip `SailfishOScommunity-release-5.1.0.11-xqdc72-debug1
 
 Steps are as follows - note, instructions written from memory, forgive me if there are minor mistakes.
 
-1. Ensure you are running Lineage in slot a (refer to [murray instructions](https://github.com/sharks-dev/sailfish-on-murray/blob/main/INSTALLING.md) if you require help)
+1. Ensure you are running Lineage22.2 in slot a (refer to [murray instructions](https://github.com/sharks-dev/sailfish-on-murray/blob/main/INSTALLING.md) if you require help)
 
 2. Reboot to bootloader (note: not fastbootd. You should have a blank screen with a blue LED, not a "LineageOS" branded screen). Run `fastboot erase userdata && fastboot format:ext4 userdata`. Note you cannot use the fastboot 34.0.5-debian for this, you must download the latest fastboot 37.0.0-14910828 at the time of writing.
 
