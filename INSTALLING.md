@@ -35,4 +35,12 @@ At any rate, what I will need from you is the logs. If you managed to run the CS
 
 Additionally, if you can get the rootfs booted and login via telnet (or SSH over WiFi), reboot and after about two minutes save the output of `/usr/libexec/droid-hybris/system/bin/logcat` for me please.
 
-Regardless of whether you managed to get to the CSD tool or run logcat, I need journal logs - especially if the phone failed to boot at all. These are saved at `/var/log/journal`. If you cannot get into the system via GUI or SSH or telnet, extract them from the phone by rebooting to bootloader, running `fastboot flash boot /path/to/your/lineageOS/boot.img`, `fastboot reboot recovery`, then sideloading `adb -d sideload zambezi_debug.zip`, enabling ADB and running `adb pull /data/.stowaways/sailfishos/var/log/journal/ /path/to/where/it/should/be/saved/`. You can then either wipe userdata to restore LineageOS or reflash `hybris-boot-zambezi.img` to return to playing in Sailfish.
+Regardless of whether you managed to get to the CSD tool or run logcat, I need journal logs - especially if the phone failed to boot at all. These are saved at `/var/log/journal`. If you cannot get into the system via GUI or SSH or telnet, extract them from the phone by rebooting to bootloader, running `fastboot flash boot /path/to/your/lineageOS/boot.img`, `fastboot reboot recovery`, then sideloading `adb -d sideload zambezi_debug.zip`, enabling ADB and running `adb pull /data/.stowaways/sailfishos/var/log/journal/ /path/to/where/it/should/be/saved/`. 
+
+# Resetting your phone
+
+If you had to reflash the LineageOS boot image to get logs, you should now either:
+ - wipe userdata (as above, `fastboot erase userdata && fastboot format:ext4 userdata`, then reboot to Lineage recovery and wipe data) to restore LineageOS or
+ - reflash `hybris-boot-zambezi.img` to return to debugging Sailfish.
+
+If for whatever reason all has not gone well (eg. even after wiping userdata and/or reflashing Lineage's `boot.img`, you can't get back into LineageOS recovery or a working SailfishOS installation), I recommend reflashing to stock with XperiaFirm and Newflasher.
