@@ -18,7 +18,7 @@ Steps are as follows - note, instructions written from memory, forgive me if the
 
 4. In the recovery screen, head to Advanced --> Enable ADB.
 
-5. Run `adb shell` followed by `vi /etc/systemd/journald.conf`. Press "i", then change `volatile` to `automatic`. Press "esc", then ":wq" and enter. `exit` the adb shell.
+5. Run `adb shell` followed by `vi /data/.stowaways/sailfishos/etc/systemd/journald.conf`. Press "i", then change `volatile` to `automatic`. Press "esc", then ":wq" and enter. `exit` the adb shell.
 
 6. Run `adb reboot bootloader`, then `fastboot flash boot hybris-boot-zambezi.img`.
 
