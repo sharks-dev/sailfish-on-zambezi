@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Sony Xperia 10 V (pdx235) Device Trees -->
+  <project path="device/sony/pdx235" name="LineageOS/android_device_sony_pdx235" revision="lineage-22.2" />
+  <project path="device/sony/sm6375-common" name="LineageOS/android_device_sony_sm6375-common" revision="lineage-22.2" />
+
+  <!-- Kernel Source -->
+  <project path="kernel/sony/sm6375" name="sharks-dev/android_kernel_sony_sm6375" revision="hybris-22.2" />
+
+  <!-- Proprietary Vendor Blobs (TheMuppets) -->
+  <project path="vendor/sony/pdx235" name="TheMuppets/proprietary_vendor_sony_pdx235" revision="lineage-22.2" remote="github" />
+  <project path="vendor/sony/sm6375-common" name="TheMuppets/proprietary_vendor_sony_sm6375-common" revision="lineage-22.2" remote="github" />
+
+  <!-- Sony Hardware Extensions -->
+  <project path="hardware/sony" name="LineageOS/android_hardware_sony" revision="lineage-22.2" />
+
+  <!-- Sailfish bits -->
+  <project path="rpm/" name="sharks-dev/droid-hal-pdx225" revision="master" />
+  <project path="hybris/droid-configs" name="sharks-dev/droid-config-pdx235" revision="master" />
+  <project path="hybris/droid-hal-version-xqdc72" name="sharks-dev/droid-hal-version-pdx225" revision="master" />
+
+  <!-- Audio compat -->
+  <project name="mlehtima/android_vendor_halium_hardware" path="vendor/halium/hardware" remote="github" revision="halium-15.0" />
+</manifest>
