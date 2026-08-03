@@ -1,10 +1,8 @@
 # sailfish-on-zambezi
 
+LineageOS 22.2 based SailfishOS for Sony Xperia 10 V
+
 Heavily based on [sailfish-on-murray](https://github.com/sharks-dev/sailfish-on-murray)
-
-Still polishing, not ready yet for prime time.
-
-Come back later.
 
 ## Refer to:
 
