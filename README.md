@@ -30,7 +30,11 @@ It seems that lineageos.org do not host older versions of Lineage for this devic
 
 The latest build of Lineage 22.2 is available from the timschumi.net mirror at this URL (note: boot.img, vbmeta.img and dtbo.img are not available here): https://lineage-archive.timschumi.net/build/36086 
 
-The remaining images are available on the Wayback machine at this URL: https://web.archive.org/web/20251024124612/https://download.lineageos.org/devices/pdx235/builds
+The remaining files are available on the Wayback machine at these URLs: 
+ - vbmeta: https://web.archive.org/web/20251113004137/https://mirrors.ocf.berkeley.edu/lineageos/full/pdx235/20251010/vbmeta.img
+ - dtbo: https://web.archive.org/web/20251031202406/https://mirror.kumi.systems/lineageos/full/pdx235/20251010/dtbo.img
+ - boot: https://web.archive.org/web/20251031194403/https://gemmei.ftp.acc.umu.se/mirror/lineageos/full/pdx235/20251010/boot.img
+ - copy-partitions: https://web.archive.org/web/20250328093758/https://mirrors.ocf.berkeley.edu/lineageos/tools/copy-partitions-20220613-signed.zip
 
 The flashing instructions can also be found on Wayback: https://web.archive.org/web/20250418165834/https://wiki.lineageos.org/devices/pdx235/install/#
 
