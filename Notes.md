@@ -8,7 +8,7 @@ Other key differences that mattered for making this port were
 
 |  | X10IV | X10V |
 |---|-------|------|
-| sparse | sda73 | sda74 |
+| super | sda73 | sda74 |
 | boot | sda31 | sda29 |
 | mkfstab_skip_entries | (initial list) | Also required '/' |'
 
