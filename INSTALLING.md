@@ -1,7 +1,7 @@
 # Installing on Zambezi
 
 Please refer to the [murray instructions](https://github.com/sharks-dev/sailfish-on-murray/blob/main/INSTALLING.md), substituting filenames and links as appropriate:
- - XperiaFirm version for Android 14: 68.1.A.2.270
+ - XperiaFirm version for Android 14: `68.1.A.2.270`. Note that the Lineage instructions say you may start with Android 14 or 15 on a 10V. Therefore if you wish, you could instead install `68.2.A.3.123`.
  - Correct LineageOS zip name: lineage-22.2-20251010-nightly-pdx235-signed.zip
  - LineageOS flashing instructions URL: https://web.archive.org/web/20250418165834/https://wiki.lineageos.org/devices/pdx235/install/#
  - LineageOS download links are a bit of a pain. The timschumi mirror works great for the main zip: https://lineage-archive.timschumi.net/build/36086, but Wayback is hard work for some reason when it comes to the pdx235 download page. I have trawled through and found surviving links of the required files for you:
