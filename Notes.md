@@ -11,6 +11,7 @@ Other key differences that mattered for making this port were
 | super | sda73 | sda74 |
 | boot | sda31 | sda29 |
 | mkfstab_skip_entries | (initial list) | Also required '/' |'
+| extcon_path | extcon1 | extcon2 |
 
 
 ---------------------------------
