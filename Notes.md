@@ -11,7 +11,8 @@ Other key differences that mattered for making this port were
 | super | sda73 | sda74 |
 | boot | sda31 | sda29 |
 | mkfstab_skip_entries | (initial list) | Also required '/' |'
-| extcon_path | extcon1 | extcon2 |
+| usb-moded extcon_path | /sys/class/extcon/extcon1 | /sys/class/extcon/extcon2 |
+| charging ControlPath | /sys/class/battchg_ext/usb_input_suspend | /sys/class/battchg_ext/smart_charging_interruption | 
 
 
 ---------------------------------
