@@ -12,7 +12,7 @@ Other key differences that mattered for making this port were
 | boot | sda31 | sda29 |
 | mkfstab_skip_entries | (initial list) | Also required '/' |'
 | usb-moded extcon_path | /sys/class/extcon/extcon1 | /sys/class/extcon/extcon2 |
-| charging ControlPath | /sys/class/battchg_ext/usb_input_suspend | /sys/class/battchg_ext/smart_charging_interruption | 
+| charging ControlPath | /sys/class/battchg_ext/usb_input_suspend | /run/qcom-charge-control/trigger (see [6b818da](https://github.com/sharks-dev/droid-config-pdx235/commit/6b818da94ea0618da0966c2c4e33e24768d46c70)) | 
 
 
 ---------------------------------
